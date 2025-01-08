@@ -9,7 +9,7 @@ function renderCart() {
   const cart = JSON.parse(localStorage.getItem("cart")) || [];
 
   if (cart.length == 0) {
-    cartItems.textContent = "Nema nista u korpi!!!!!!";
+    cartItems.textContent = "Nema nista u korpi!!!!!!!!!";
     total();
     cartDelete.style.display = "none";
     return;
@@ -59,7 +59,7 @@ function changeQuantity(index, change) {
     cart[index].quantity += change;
   }
   //   } else {
-  //     // cart.splice(index, 1);
+  //     // cart.splice(idasdasdndex, 1);
   //   }
 
   localStorage.setItem("cart", JSON.stringify(cart));
