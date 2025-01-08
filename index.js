@@ -8,7 +8,7 @@ const pageInfo = document.querySelector("#page-info");
 const search = document.querySelector("#search");
 
 let currentPage = 1;
-const productPerPage = 20;
+const productPerPage = 18;
 let filtered;
 prev.addEventListener("click", function () {
   changePage(-1);
@@ -17,6 +17,7 @@ prev.addEventListener("click", function () {
 next.addEventListener("click", function () {
   changePage(1);
 });
+
 
 search.addEventListener("keyup", () => {
   filterProducts();
