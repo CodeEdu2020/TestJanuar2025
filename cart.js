@@ -9,7 +9,7 @@ function renderCart() {
   const cart = JSON.parse(localStorage.getItem("cart")) || [];
 
   if (cart.length == 0) {
-    cartItems.textContent = "Nema nista u korpi!!!";
+    cartItems.textContent = "Nema nista u korpi!!!!!!";
     total();
     cartDelete.style.display = "none";
     return;
