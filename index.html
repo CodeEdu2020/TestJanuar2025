@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proizvodi</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Online Prodavnica</h1>
+      <nav>
+        <a href="favorites.html" id="favorites-link"
+          >❤ (<span id="favorites-count">0</span>)</a
+        >
+        <a href="cart.html" id="cart-link"
+          >Korpa (<span id="cart-count"></span>)</a
+        >
+      </nav>
+      <div class="search-filter">
+        <input type="search" id="search" placeholder="Pretraži proizvode..." />
+      </div>
+    </header>
+    <main>
+      <div id="product-list" class="product-list"></div>
+      <div class="pagination">
+        <button id="prev-page">Prethodna</button>
+        <span id="page-info"></span>
+        <button id="next-page">Sledeća</button>
+      </div>
+    </main>
+    <div id="spinner" class="spinner"></div>
+    <!-- <div id="product-list" class="product-list"></div> -->
+    <footer>
+      <a href="cart.html">Idi u korpu</a>
+    </footer>
+  </body>
+</html>

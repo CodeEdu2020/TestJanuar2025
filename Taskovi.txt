@@ -1,0 +1,15 @@
+1. hocu da prikazem artikle a index stranici i to da na svakom imam dugme dodaj u korpu
+2. Preuzimanje treba da bude sa nekog apija koji moze da prezume  minimm 100 artikla
+3. Treba napraviti paginaciju da na jednoj strani imamo 20 artikala i dugmice koji ce prelaziti na naredne ili prethodne strane
+4. U hederu da se vidi koliko je artikala u korpi
+5. Korisnik ima mogucnsot da doda proizvod u favorite
+6. Korpa je nova stranica gde mogu da vidim sta je kroisnik dodao u kpru i da uradim brisanje pojedinacnog artikla kao i svih artiakala
+7. U korpi mogu da zimenim kolicnu istog artiklai da total ukupni funkcionise dinamicki sa promenom kolicine artikla kao i brisanjem artikla
+8. favorit su posebna stranica gde korisnik moze d apregleda sta je dodao u favorite a moze i da obrise isto
+9.Da se unese kod za popust ukoliko ga korsinik ima
+10. Pre ucitavanja artikla da se pojavi spinner koji ce se skloniti nakon ucitavanja svih artiakal
+11.Pretraga proizvoda da rai na search
+12. filter po kategoriji checkbox i da kategorije se dinamicki ispisuju na osnovu pristiglih
+13.Prevuciartikal u korpu -drag and drop na ikonicu korpe
+14. Ne sme da u korpi bude isti artikal vec mu povecavaj kolicinu
+15.Nakon uspesne kupovine posalji mejl da je uspesna kupovina

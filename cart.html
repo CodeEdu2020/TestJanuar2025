@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Korpa</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="cart.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Vaša korpa</h1>
+    </header>
+    <main>
+      <div id="cart-items" class="cart-items"></div>
+      <div class="total">
+        <h2>Ukupno: <span id="total-price"></span> RSD</h2>
+      </div>
+      <div class="cart-actions">
+        <button id="obrisi">Obriši celu korpu</button>
+        <a href="index.html">Nazad na proizvode</a>
+      </div>
+      <button id="posaljiMejl">Posalji narudzbinu</button>
+    </main>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "lCF7q0XqpEroXM78s",
+      });
+   })();
+</script>
+  </body>
+</html>
