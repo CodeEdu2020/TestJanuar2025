@@ -1,6 +1,6 @@
-#GLAVNI
-##Podnaslov
-###Manji naslov
+# GLAVNI
+## Podnaslov
+### Manji naslov
 
 
 ![Opis slike](/nature.jpg)
