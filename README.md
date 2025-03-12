@@ -5,11 +5,11 @@
 
 ![Opis slike](/nature.jpg)
 
--dfsdfs
--sadsadsa
--asdsa
-  -dsadsad
-  -dasda
+- dfsdfs
+- sadsadsa
+- asdsa
+  - dsadsad
+  - dasda
 [Github](https://www.github.com)
 
 |  Ime  | Prezime |
